@@ -19,7 +19,7 @@ const Hero = ({theme , setTheme}) => {
             <div className='flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-8 '>
 
 
-              {/* start right section */}
+              {/* start left section */}
               <div className='lg:w-1/2 w-full flex flex-col items-center lg:items-start text-center lg:text-left '
               data-aos='fade-right'>
                 {/* social media icons */}
@@ -79,11 +79,11 @@ const Hero = ({theme , setTheme}) => {
                   </a>
                </div>
               </div>
-                {/* End right section */}
+                {/* End left section */}
 
 
 
-                {/* start left section */}
+                {/* start right section (My photo)*/}
                 <div className='lg:w-1/2 w-full max-w-md lg:max-w-lg flex justify-center relative '
                 data-aos='fade-left'>
                  
@@ -96,7 +96,7 @@ const Hero = ({theme , setTheme}) => {
                  </div>
 
                 </div>
-                {/* end left section */}
+                {/* end right section (My photo)*/}
 
 
             </div>
