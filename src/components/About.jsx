@@ -48,7 +48,9 @@ const About = ({theme , setTheme}) => {
               <h2 className='text-3xl sm:text-4xl lg:text-5xl font-bold 
               mb-6 dark:text-white text-gray-900'>
                 turning ideas into
+                <span className='text-violet-500 dark:text-[#e0c0fd]'>Digital Reality</span>
               </h2>
+              
               <p className='text-base lg:text-lg mb-8 leading-relaxed dark:text-gray-300 text-gray-600'>
                 I'm a Front-End Developer passionate about building responsive and user-friendly websites with React.
                  I turn Figma designs and ideas into modern, interactive websites with clean code and attention to detail

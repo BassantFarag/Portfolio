@@ -1,11 +1,9 @@
 import React, { useEffect , useState } from 'react'
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import About from './components/About'
-import Skills from './components/skills'
-import Projects from './components/Projects'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import About from './components/About';
 
 
 
@@ -32,9 +30,7 @@ const App = () => {
         :'bg-linear-to-br from-gray-50 to-blue-50 min-h-screen' }>
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} setTheme={setTheme} />
-      <About theme={theme} setTheme={setTheme}/>
-      <Skills theme={theme} setTheme={setTheme} />
-      <Projects theme={theme} setTheme={setTheme} />
+      <About  theme={theme} setTheme={setTheme} />
     </div>
   )
 }
