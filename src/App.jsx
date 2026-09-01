@@ -4,6 +4,9 @@ import Hero from './components/Hero';
 import About from './components/About'
 import Skills from './components/skills'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
+import Contact from './components/Contact'
+import Services from './components/Services'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -35,6 +38,9 @@ const App = () => {
       <About theme={theme} setTheme={setTheme}/>
       <Skills theme={theme} setTheme={setTheme} />
       <Projects theme={theme} setTheme={setTheme} />
+      <Services theme={theme} setTheme={setTheme} />
+      <Contact theme={theme} setTheme={setTheme} />
+      <Footer theme={theme} setTheme={setTheme}/>
     </div>
   )
 }
