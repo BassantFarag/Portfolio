@@ -15,7 +15,7 @@ import 'aos/dist/aos.css';
 
 const App = () => {
 
-  const [theme, setTheme]=useState(localStorage.getItem('theme') || 'light');
+  const [theme, setTheme] = useState('dark');
   
 
   useEffect(()=>{
