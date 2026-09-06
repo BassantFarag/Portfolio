@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import Services from './components/Services'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import WhyWorkWithMe from './components/WhyWorkWithMe';
 
 
 
@@ -39,6 +40,7 @@ const App = () => {
       <Skills theme={theme} setTheme={setTheme} />
       <Projects theme={theme} setTheme={setTheme} />
       <Services theme={theme} setTheme={setTheme} />
+      <WhyWorkWithMe theme={theme} setTheme={setTheme} />
       <Contact theme={theme} setTheme={setTheme} />
       <Footer theme={theme} setTheme={setTheme}/>
     </div>

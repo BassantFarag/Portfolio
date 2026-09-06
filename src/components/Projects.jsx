@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import Flower_shop from '../asset/Flower_shop.jpg'
 import Agency from '../asset/Agency.jpg'
+import digital from '../asset/digital.jpg'
 
 const Projects = ({ theme, setTheme }) => {
 

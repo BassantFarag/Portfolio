@@ -21,17 +21,17 @@ const Footer = ({ theme }) => {
   const socialLinks = [
     { 
       icon: <Code className="w-5 h-5" />, 
-      href: 'https://github.com', 
+      href: 'https://github.com/BassantFarag', 
       label: 'GitHub' 
     },
     { 
       icon: <Share2 className="w-5 h-5" />, 
-      href: 'https://linkedin.com', 
+      href: 'https://linkedin.com/in/bassantfarag', 
       label: 'LinkedIn' 
     },
     { 
       icon: <Mail className="w-5 h-5" />, 
-      href: 'mailto:example@gmail.com', 
+      href: 'mailto:bassanttfarag28@gmail.com', 
       label: 'Email' 
     },
   ]
