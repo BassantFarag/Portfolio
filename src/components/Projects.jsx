@@ -1,8 +1,9 @@
 import React, { useRef } from 'react'
 import Flower_shop from '../asset/Flower_shop.jpg'
 import Agency from '../asset/Agency.jpg'
-import digital from '../asset/digital.jpg'
-
+import Digital from '../asset/Digital.png'
+import AlexZoo from '../asset/AlexZoo.jpg'
+import admindashboard from '../asset/admindashboard.png'
 const Projects = ({ theme, setTheme }) => {
 
   const scrollRef = useRef(null)
@@ -27,7 +28,7 @@ const Projects = ({ theme, setTheme }) => {
     {
       id: 3,
       title: "Digital solution",
-      image: "",
+      image: Digital,
       desc: "Website for Digital Solutions company built with HTML5 & CSS3",
       category: "HTML&CSS",
       tags: ["HTML", "Css"]
@@ -35,7 +36,7 @@ const Projects = ({ theme, setTheme }) => {
     {
       id: 4,
       title: "Alex Zoo",
-      image: "",
+      image: AlexZoo,
       desc: "A modern, responsive E-commerce Pet Shop front-end website called Alex Zoo",
       category: "Javascript",
       tags: ["Javascript", "tailwind Css", "HTML"]
@@ -60,7 +61,7 @@ const Projects = ({ theme, setTheme }) => {
     {
       id: 7,
       title: "Admin-dashboard",
-      image: "",
+      image: admindashboard,
       desc: "Responsive Admin Dashboard with React and Tailwind CSS, featuring dynamic charts and user management.",
       category: "React",
       tags: ["React", "tailwind Css"]
